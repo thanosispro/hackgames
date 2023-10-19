@@ -1,0 +1,285 @@
+
+
+body{
+  
+    margin: 0%;
+    padding:0%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+ .nav{
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
+    display: flex;
+     background-color: #333333;
+     height: 10vh;
+     width: 100%;
+     align-items: center;
+ display: flex;
+ transition: background-color 1s ease;
+ z-index: 1000;
+ }
+ .red{
+
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+   height: 10vh;
+width: 78pt;
+font-size: 16px;
+margin-left: 60pt;
+color: #fff;
+transition: font-size 1s ease-in-out;
+transition: background-color 1s ease;
+
+
+ }
+ 
+.text{
+    cursor: pointer;
+    margin-top: 20px;
+    transition: font-size 0.3s ease-in-out;
+
+font-family: 'Arial', sans-serif;
+font-weight: bold;
+
+}
+ .text1{
+    
+     height: 100%;
+     margin: 0 auto 10px;
+     width: 95%;
+     
+    
+ }
+ .text-1{
+    
+     display: inline-block;
+     height: 28%;
+     width: 28%;
+     line-height: 1.6;
+     font-size: 20px;
+     overflow: hidden;
+    
+     opacity: 0;
+     animation: fadeIn 3s ease-in-out forwards;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #333333;
+
+ 
+ }
+ .images{
+  border-radius: 10px;
+  overflow: hidden;
+    content: "";
+    display: table;
+    clear: both;
+    border: 3px solid #333;
+    
+     display: inline-block;
+     width: 48.57%;
+     height: 70%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     transition: transform 1s ease;
+     
+ }
+ .images:hover {
+  transform: scale(1.03); /* Scale up the image on hover */
+}
+
+
+
+
+
+
+ 
+ 
+ @keyframes slide1{
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(0); /* Slide to the original position */
+    }
+  }
+  @keyframes slide2{
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(0); /* Slide to the original position */
+    }
+  }
+
+  .image-text{
+    content: "";
+    display: table;
+    clear: both;
+      width: 100%;
+      height: 68pt;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-top: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  
+    }
+
+  .img-txt{
+     font-size: 24px;
+     font-weight: bolder;
+    
+    color: #4CAF50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);font-size: 24px;letter-spacing: 2px;font-weight: bold;
+    animation: shining 2s infinite alternate;
+
+}
+@keyframes shining {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+     opacity: 0.8; /* End with opacity 1 (fully visible) */
+    }
+  }
+
+  .textbest{
+    opacity: 0;
+    
+     
+    font-weight: bold; 
+    
+ 
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px; 
+    color: #333; 
+    line-height: 1.5;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  
+  
+  .images1{
+    
+   
+    width: 49%;
+    
+    content: "";
+    display: table;
+    clear: both;
+    display: inline-block;
+
+    height: 74%;
+    
+  }
+  h1{
+ color : linear-gradient(45deg, #00E676, #2E7D32);
+    
+    
+    
+    
+    font-size: 24px; /* Adjust the font size as needed */
+    /* Dark gray color */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    margin-bottom: 10px;
+    animation: shining 2s ease-in-out infinite;
+
+  }
+ 
+  .textlast{
+    
+    display: inline-block;
+     width: 48.57%;
+     height: 70%;
+     
+  }
+  .textlast1{
+    margin-left: 1.6%;
+   
+    display: inline-block;
+    width: 48.57%;
+     height: 38%;
+     
+  }
+  .lasttext{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+   
+    
+    
+   
+   
+  }
+  
+      
+  @keyframes fadeIn1 {
+    0% {
+      opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+     opacity: 1.2; /* End with opacity 1 (fully visible) */
+    }
+  }
+    
+    .ending{
+     
+      display: inline-block;
+height: 20%;
+
+width: 100%;
+transform: translateX(-50%);
+position: relative;
+
+            bottom: 0;
+            left: 50%;
+background-color: rgba(0, 0, 0, 0.5);
+    }
+    .end-text{
+      display: inline-block;
+      height: 100%;
+      width: 30%;
+      
+clear: both;
+content: "";
+
+    }
+    .end-text1{
+      
+      color: white;font-family: Arial, sans-serif;font-size: 16px;line-height: 1.6;
+      
+    }
+
+    @media only screen and (max-width: 768px) {
+      .text1 {
+          width: 100%;
+      }
+  }
+
+  @media only screen and (max-width: 480px) {
+      .text1 {
+          width: 100%;
+      }
+  }
+    
+  @keyframes slide-in {
+    from {
+      bottom: -100px;
+    }
+    to {
+      bottom: 0;
+    }
+  }

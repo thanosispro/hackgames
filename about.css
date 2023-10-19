@@ -1,0 +1,89 @@
+
+body{
+  background-image: url('back.jpg');
+  margin: 0%;
+  padding:0%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.nav{
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
+  display: flex;
+   background-color: #333333;
+   height: 10vh;
+   width: 100%;
+   align-items: center;
+display: flex;
+transition: background-color 1s ease;
+z-index: 1000;
+}
+.red{
+
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ height: 10vh;
+width: 78pt;
+font-size: 16px;
+margin-left: 60pt;
+color: #fff;
+transition: font-size 1s ease-in-out;
+transition: background-color 1s ease;
+
+
+}
+
+.text{
+  cursor: pointer;
+  margin-top: 20px;
+  transition: font-size 0.3s ease-in-out;
+
+font-family: 'Arial', sans-serif;
+font-weight: bold;
+
+}
+.ending{
+     
+    display: inline-block;
+height: 20%;
+
+width: 100%;
+transform: translateX(-50%);
+position: relative;
+
+          bottom: 0;
+          left: 50%;
+background-color: rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);;
+  }
+  .end-text{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    
+clear: both;
+content: "";
+
+  }
+  .end-text1{
+    
+    color: white;font-family: Arial, sans-serif;font-size: 16px;line-height: 1.6;
+    
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start with opacity 0 */
+    }
+    
+    100% {
+     opacity: 1; /* End with opacity 1 (fully visible) */
+    }
+  }
+
+  .lasty{
+    color: #fff;
+  opacity: 0;
+    font-size: 26pt;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
